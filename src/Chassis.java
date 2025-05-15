@@ -34,5 +34,8 @@ class Chassis {
         this.component = chassisLine.toString();
     }
 
-   
+    private boolean contains(int[] arr, int value) {
+        for (int a : arr) if (a == value) return true;
+        return false;
+    }
 }
