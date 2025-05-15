@@ -12,4 +12,9 @@ class Car {
         this.body = new Body(length, doors);
         this.chassis = new Chassis(length);
     }
+
+    public void draw() {
+        System.out.print(body.component);
+        System.out.println(chassis.component);
+    }
 }
