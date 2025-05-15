@@ -34,6 +34,12 @@ class Chassis {
         this.component = chassisLine.toString();
     }
 
+    /**
+     * method to check if an array contains a value
+     * @param arr the array to check
+     * @param value the value to check for
+     * @return true if the array contains the value, false otherwise
+     */
     private boolean contains(int[] arr, int value) {
         for (int a : arr) if (a == value) return true;
         return false;
